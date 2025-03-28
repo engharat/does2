@@ -10,41 +10,41 @@ If you liked our work and you wish to use it in your research, please cite us!
 
 > **Di Ciaccio, F., Troisi, S., & Russo, P. (2024). DC-DOES: A Dual-Camera Deep Learning Approach for Robust Orientation Estimation in Maritime Environments. IEEE Access.**
 
-> @article{di2024dc,
-  title={DC-DOES: A Dual-Camera Deep Learning Approach for Robust Orientation Estimation in Maritime Environments},
-  author={Di Ciaccio, Fabiana and Troisi, Salvatore and Russo, Paolo},
-  journal={IEEE Access},
-  year={2024},
-  publisher={IEEE}
-}
+    > @article{di2024dc,
+      title={DC-DOES: A Dual-Camera Deep Learning Approach for Robust Orientation Estimation in Maritime Environments},
+      author={Di Ciaccio, Fabiana and Troisi, Salvatore and Russo, Paolo},
+      journal={IEEE Access},
+      year={2024},
+      publisher={IEEE}
+    }
 
 > **Di Ciaccio, F., Russo, P., & Troisi, S. (2022). Does: A deep learning-based approach to estimate roll and pitch at sea. IEEE access, 10, 29307-29321.**
 
-> @article{di2022does,
-  title={Does: A deep learning-based approach to estimate roll and pitch at sea},
-  author={Di Ciaccio, Fabiana and Russo, Paolo and Troisi, Salvatore},
-  journal={IEEE access},
-  volume={10},
-  pages={29307--29321},
-  year={2022},
-  publisher={IEEE}
-}
+    > @article{di2022does,
+      title={Does: A deep learning-based approach to estimate roll and pitch at sea},
+      author={Di Ciaccio, Fabiana and Russo, Paolo and Troisi, Salvatore},
+      journal={IEEE access},
+      volume={10},
+      pages={29307--29321},
+      year={2022},
+      publisher={IEEE}
+    }
 
 ### Conference paper
 > **Russo, P., & Di Ciaccio, F. (2022, October). Deep models optimization on embedded devices to improve the orientation estimation task at sea. In 2022 IEEE International Workshop on Metrology for the Sea; Learning to Measure Sea Health Parameters (MetroSea) (pp. 44-49). IEEE.**
 
-> @inproceedings{russo2022deep,
-  title={Deep models optimization on embedded devices to improve the orientation estimation task at sea},
-  author={Russo, Paolo and Di Ciaccio, Fabiana},
-  booktitle={2022 IEEE International Workshop on Metrology for the Sea; Learning to Measure Sea Health Parameters (MetroSea)},
-  pages={44--49},
-  year={2022},
-  organization={IEEE}
-}
+    > @inproceedings{russo2022deep,
+      title={Deep models optimization on embedded devices to improve the orientation estimation task at sea},
+      author={Russo, Paolo and Di Ciaccio, Fabiana},
+      booktitle={2022 IEEE International Workshop on Metrology for the Sea; Learning to Measure Sea Health Parameters (MetroSea)},
+      pages={44--49},
+      year={2022},
+      organization={IEEE}
+    }
 
 
 # DC-DOES: Overview
-DC-DOES is a Deep Learning model designed to enhance orientation estimation in maritime navigation. DC-DOES builds upon the previous model [1], improving performance by incorporating a dual-camera setup and a low-cost AHRS sensor integrated into a fully customizable embedded Linux-based device. Moreover, the novel dataset **Double Camera - ROll and PItch at Sea (DC-ROPIS)**, which contains paired images and corresponding orientation ground truth, was collected specifically for this purpose.
+DC-DOES is a Deep Learning model designed to enhance orientation estimation in maritime navigation. DC-DOES builds upon the previous model [DOES], improving performance by incorporating a dual-camera setup and a low-cost AHRS sensor integrated into a fully customizable embedded Linux-based device. Moreover, the novel dataset **Double Camera - ROll and PItch at Sea (DC-ROPIS)**, which contains paired images and corresponding orientation ground truth, was collected specifically for this purpose.
 The approach aims to improve robustness in traditional methods under specific conditions, such as GNSS signal unavailability or long-lasting outages that cause significant drift in inertial sensors. It also addresses potential confusion with nearby robots equipped with SONAR or RADAR systems. However, DC-DOES is not intended to replace current systems but rather to complement them. 
 Once deployed, DC-DOES relies entirely on visual features, making it immune to sensor drift over time. During deployment, the system architecture does not depend on AHRS, which is only used during the training phase.
 <!--- ### DANAE Roll estimation - OXIO Dataset
@@ -95,3 +95,13 @@ Each subdirectory includes:
   - **Roll**
   - **Pitch**
   - Additional parameters
+ 
+
+
+# References
+[Journals]
+https://ieeexplore.ieee.org/abstract/document/10720752 published by IEEE, IEEE Access, 2024
+https://ieeexplore.ieee.org/document/9733371 published by IEEE, IEEE Access, 2022
+
+[Conference Paper]
+https://ieeexplore.ieee.org/document/9950745 published by IEEE, 2022 IEEE International Workshop on Metrology for the Sea; Learning to Measure Sea Health Parameters (MetroSea)
