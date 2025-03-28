@@ -1,27 +1,23 @@
-# does2
+# DC-ROPIS Dataset
 
-DC-ROPIS Dataset
-The DC-ROPIS dataset can be downloaded from the following link:
-[Download DC-ROPIS Dataset
-](https://studentiuniparthenope-my.sharepoint.com/:u:/g/personal/fabiana_diciaccio_studenti_uniparthenope_it/EUL0gccLZ21Fhn0B83ixg5IBNHkFRINY7qP1v4ThdPpf2g?e=8Jt3lC)
-Dataset Structure
-The dataset is organized into two main folders:
+The **DC-ROPIS dataset** can be downloaded from the following link:  
+🔗 [Download DC-ROPIS Dataset](https://studentiuniparthenope-my.sharepoint.com/:u:/g/personal/fabiana_diciaccio_studenti_uniparthenope_it/EUL0gccLZ21Fhn0B83ixg5IBNHkFRINY7qP1v4ThdPpf2g?e=8Jt3lC)
 
-train/ – Contains training samples
+## 📂 Dataset Structure
 
-test/ – Contains test samples
+The dataset is organized into two main directories:
 
-Each folder is further divided into subfolders based on different acquisition settings.
+- **`train/`** – Contains training samples  
+- **`test/`** – Contains test samples  
 
-Contents of Each Subfolder
-Each subfolder contains:
+Each directory is further divided into subdirectories based on different acquisition settings.
 
-Image samples – Captured under specific acquisition conditions
+### 📁 Contents of Each Subdirectory
 
-data.txt – A metadata file providing ground truth values, including:
+Each subdirectory includes:
 
-Roll
-
-Pitch
-
-Additional parameters
+- 📷 **Image samples** – Captured under specific acquisition conditions  
+- 📄 **`data.txt`** – A metadata file containing ground truth values:
+  - **Roll**
+  - **Pitch**
+  - Additional parameters
